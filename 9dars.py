@@ -7,10 +7,6 @@ full_name("Ali", "Valiyev")
 
 
 
-
-
-
-
 def shape_area(shape, **kwargs):
     if shape == "kvadrat":
         a = kwargs.get("a", 0)
@@ -24,11 +20,6 @@ def shape_area(shape, **kwargs):
 
 print(shape_area("kvadrat", a=4))
 print(shape_area("to'g'ri to'rtburchak", a=4, b=5))
-
-
-
-
-
 
 
 

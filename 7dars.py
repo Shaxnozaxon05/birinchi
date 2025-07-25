@@ -11,9 +11,6 @@ print(lugat)
 
 
 
-
-
-
 foydalanuvchi = {"ism": "Ali", "yosh": 20, "shahar": "Andijon"}
 foydalanuvchi["yosh"] = 21
 foydalanuvchi.pop("shahar")

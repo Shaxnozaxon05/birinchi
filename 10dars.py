@@ -1,4 +1,4 @@
-with open("imtihon.txt", "w") as file:
+with open("imtihon.txt", "w", encoding="utf-8") as file:
     n = int(input("Nechta talaba? "))
     for _ in range(n):
         ism = input("Ism: ")
@@ -16,44 +16,35 @@ with open("alochilar.txt", "w") as alo_file:
 
 
 
-
-
-
-
-
-
-
-
-
-
-import os
-from collections import Counter
-
-if not os.path.exists("matn.txt"):
-    with open("matn.txt", "w", encoding="utf-8") as f:
-        f.write("Salom dunyo. Dasturlash oson. Salom Python. Python yaxshi.")
-
-with open("matn.txt", "r", encoding="utf-8") as file:
-    matn = file.read().lower()
-
-sozlar = matn.replace(".", "").split()
-jami = len(sozlar)
-noyob = len(set(sozlar))
-hisob = Counter(sozlar)
-eng_kop = hisob.most_common(1)[0]
-
-print(f"Jami so‘zlar soni: {jami}")
-print(f"Takrorlanmas so‘zlar: {noyob}")
-print(f"Eng ko‘p uchragan so‘z: {eng_kop[0]} ({eng_kop[1]} marta)")
-
-
-
-
-
-
-
-
-
+#
+# import os
+# from collections import Counter
+#
+# if not os.path.exists("matn.txt"):
+#     with open("matn.txt", "w", encoding="utf-8") as f:
+#         f.write("Salom dunyo. Dasturlash oson. Salom Python. Python yaxshi.")
+#
+# with open("matn.txt", "r", encoding="utf-8") as file:
+#     matn = file.read().lower()
+#
+# sozlar = matn.replace(".", "").split()
+# jami = len(sozlar)
+# noyob = len(set(sozlar))
+# hisob = Counter(sozlar)
+# eng_kop = hisob.most_common(1)[0]
+#
+# print(f"Jami so‘zlar soni: {jami}")
+# print(f"Takrorlanmas so‘zlar: {noyob}")
+# print(f"Eng ko‘p uchragan so‘z: {eng_kop[0]} ({eng_kop[1]} marta)")
+#
+#
+#
+#
+#
+#
+#
+#
+#
 # import os
 # import random
 #

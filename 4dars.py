@@ -1,10 +1,10 @@
-# son = float(input("Sonni kiriting: "))
-# if son > 0:
-#     print("Musbat son.")
-# elif son < 0:
-#     print("Manfiy son.")
-# else:
-#     print("Bu nol.")
+son = float(input("Sonni kiriting: "))
+if son > 0:
+    print("Musbat son.")
+elif son < 0:
+    print("Manfiy son.")
+else:
+    print("Bu nol.")
 
 
 
@@ -23,17 +23,17 @@ else:
 
 
 
-#
-# a = int(input("Birinchi sonni kiriting: "))
-# b = int(input("Ikkinchi sonni kiriting: "))
-# c = int(input("Uchinchi sonni kiriting: "))
-# if a >= b and a >= c:
-#     son = a
-# elif b >= a and b >= c:
-#     son = b
-# else:
-#     son = c
-# print(f"Eng katta son: {son}")
+
+a = int(input("Birinchi sonni kiriting: "))
+b = int(input("Ikkinchi sonni kiriting: "))
+c = int(input("Uchinchi sonni kiriting: "))
+if a >= b and a >= c:
+    son = a
+elif b >= a and b >= c:
+    son = b
+else:
+    son = c
+print(f"Eng katta son: {son}")
 
 
 

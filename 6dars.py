@@ -5,13 +5,12 @@ for son in sonlar:
         juft.append(son)
 print(f"Juft sonlar: {juft}" )
 
-
+print(sonlar[1])
 
 
 raqamlar = (12, 45, 67)
 for raqam in raqamlar:
     print(raqam)
-
 
 
 

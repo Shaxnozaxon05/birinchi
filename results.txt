@@ -1,0 +1,3 @@
+Eng katta son: 100
+Eng kichik son: 1
+O'rtacha qiymat: 52.75
